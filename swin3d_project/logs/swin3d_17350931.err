@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "/lustre/work/archcomplab/ssaraf/Maya Archarological Sites/Model Training/swin3d_project/models/swin3d_model.py", line 3, in <module>
+    import MinkowskiEngine as ME
+  File "/work/archcomplab/ssaraf/envs/maya_env/lib/python3.10/site-packages/MinkowskiEngine/__init__.py", line 53, in <module>
+    from MinkowskiEngineBackend._C import (
+ImportError: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /work/archcomplab/ssaraf/envs/maya_env/lib/python3.10/site-packages/MinkowskiEngineBackend/_C.cpython-310-x86_64-linux-gnu.so)

@@ -1,0 +1,7 @@
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+Traceback (most recent call last):
+  File "/lustre/work/archcomplab/ssaraf/Maya Archarological Sites/Model Training/swin3d_project/scripts/train_swin3d.py", line 28, in <module>
+    from configs.swin3d_small import TRAIN_CONFIG
+ModuleNotFoundError: No module named 'configs'

@@ -1,0 +1,16 @@
+/var/spool/slurmd/job17350798/slurm_script: line 29: cd: /work/archcomplab/ssaraf/Maya Archaeological Sites/Model Training/swin3d_project/: No such file or directory
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+environment: line 19: /usr/local/lmod/lmod/libexec/lmod: No such file or directory
+which: no nvcc in (/work/archcomplab/ssaraf/envs/maya_env/bin:/util/opt/anaconda/25.3.1/condabin:/home/archcomplab/ssaraf/.local/bin:/home/archcomplab/ssaraf/bin:/util/opt/anaconda/deployed-conda-envs/packages/perl/envs/perl-5.26.2/bin:/util/opt/anaconda/deployed-conda-envs/packages/nano/envs/nano-5.7/bin:/util/opt/anaconda/deployed-conda-envs/packages/git/envs/git-2.39.3/bin:/util/opt/anaconda/deployed-conda-envs/packages/python/envs/python-3.9/bin:/util/opt/anaconda/4.9/bin:/util/opt/openmpi/4.1/gcc/11/bin:/util/comp/gcc/11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/TurboVNC/bin:/util/opt/bin:/util/opt/bin)
+dirname: missing operand
+Try 'dirname --help' for more information.
+dirname: missing operand
+Try 'dirname --help' for more information.
+which: no nvcc in (/bin:/work/archcomplab/ssaraf/envs/maya_env/bin:/util/opt/anaconda/25.3.1/condabin:/home/archcomplab/ssaraf/.local/bin:/home/archcomplab/ssaraf/bin:/util/opt/anaconda/deployed-conda-envs/packages/perl/envs/perl-5.26.2/bin:/util/opt/anaconda/deployed-conda-envs/packages/nano/envs/nano-5.7/bin:/util/opt/anaconda/deployed-conda-envs/packages/git/envs/git-2.39.3/bin:/util/opt/anaconda/deployed-conda-envs/packages/python/envs/python-3.9/bin:/util/opt/anaconda/4.9/bin:/util/opt/openmpi/4.1/gcc/11/bin:/util/comp/gcc/11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/TurboVNC/bin:/util/opt/bin:/util/opt/bin)
+/var/spool/slurmd/job17350798/slurm_script: line 80: nvcc: command not found
+Traceback (most recent call last):
+  File "/lustre/work/archcomplab/ssaraf/Maya Archarological Sites/Model Training/swin3d_project/scripts/train_swin3d.py", line 28, in <module>
+    from configs.swin3d_small import TRAIN_CONFIG
+ModuleNotFoundError: No module named 'configs'
