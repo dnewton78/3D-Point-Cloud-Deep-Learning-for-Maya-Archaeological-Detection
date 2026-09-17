@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the project using the citation information supplied by the project authors."
+title: "3D Point Cloud Deep Learning for Maya Archaeological Detection"
+type: software
+version: "1.0.0"
+# TODO: Add project authors, repository URL, DOI (if available), and release date before publication.

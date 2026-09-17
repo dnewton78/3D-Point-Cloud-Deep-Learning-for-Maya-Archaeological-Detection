@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and HPC outputs
+*.out
+*.err
+logs/
+**/logs/
+
+# Model checkpoints / large artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+weights/
+
+# Large/raw data (keep READMEs and small tracked examples)
+data/raw/
+data/processed/
+data/cache/
+*.laz
+*.las
+
+# Cached predictions / generated evaluation artifacts
+cached_predictions/
+predictions/
+*.pyc
+*.pyo
+jobs/logs/
+authorized_tile_manifest.csv
