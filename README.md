@@ -456,14 +456,30 @@ If this repository is used in academic work, please cite the project using the m
 ```text
 CITATION.cff
 ```
+If you use the code, workflows, or datasets from this repository in academic research, please cite:
 
-Update the citation metadata with the final authors, title, publication information, and repository URL before public release.
+Newton, David, Heather Richards-Rissetto, Amy E. Thompson,
+Sanyam Agrawal, Shubham Saraf, and Keith M. Prufer.
+2026. *3D Point Cloud Deep Learning for Maya Archaeological
+Detection*. GitHub.
+https://github.com/dnewton78/3D-Point-Cloud-Deep-Learning-for-Maya-Archaeological-Detection
+
+Citation metadata is also provided in the [CITATION.cff](CITATION.cff)
+file. You can use GitHub's "Cite this repository" feature to
+generate formatted citations.
 
 ---
 
 ## License
 
-A final project license has not yet been selected. The `LICENSE` file is currently a placeholder and should be replaced with the appropriate license before public distribution.
+The original software developed for this project is released under
+the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Third-party software components remain subject to their
+respective licenses and copyright notices.
+
+Datasets and archaeological information, where provided,
+may be subject to separate licensing and access conditions.
 
 ---
 
