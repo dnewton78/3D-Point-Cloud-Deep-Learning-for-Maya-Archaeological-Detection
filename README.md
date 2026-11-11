@@ -494,8 +494,3 @@ Additional repository documentation is available in `docs/`:
 
 ---
 
-## Project status
-
-This repository represents an organized research codebase rather than a packaged software library. Some paths and environment-specific settings may need to be updated before running on a new workstation or HPC system.
-
-The recommended next reproducibility step is to add the exact final software environment and document the final trained checkpoint(s), experiment configuration(s), and evaluation outputs used for the reported results.
